@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Floyd | No Oficial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400&display=swap">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <div class="grid-body">
+        <header class="grid-header">
+            <!--Barra de navegación-->
+            <nav class="flex-container-nav">
+                <a href="../index.html"><img class="logo" src="../img/logo-pink-floyd.png"></a>
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./discografia.html">Discografía</a></li>
+                    <li><a href="./historia.html">Historia</a></li>
+                    <li><a href="./galeria.html">Galería</a></li>   
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main class="grid-main flex-container-main-contact">
+        <!--Título-->
+        <h1 class="title2">Contacto</h1>
+        <section class="contact">
+            <!--Subtítulo-->
+            <h2>Contáctese con nosotros.</h2>
+            <!--Usé method="get" porque con post me saltaba error 405, me fijé y es porque no está conectado a un servidor, por el momento entonces pensé dearlo en get.-->
+            <div>   
+                <form method="get" enctype="text/plain">
+                    <input type="email" value="Introduzca su mail" class="input"><br>
+                    <textarea class="input">Introduzca su mensaje aquí</textarea><br>
+                    <input type="submit">
+                </form>
+            </div> 
+        </section>
+    </main>
+    <footer class="grid-footer">
+        <div class="flex-container-footer">
+            <p class="copyright"><b>© - Todos los derechos reservados</b></p>
+            <div class="socialmedia">
+                <a href="https://www.instagram.com/pinkfloyd/" target="blank" hreflang="x-default" ><img src="../img/logo-instagram.png" alt="Instagram" class="logosm"></a>
+                <a href="https://twitter.com/pinkfloyd" target="blank"><img src="../img/logo-twitter.png" alt="Twitter" class="logosm"></a>
+                <a href="https://www.facebook.com/pinkfloyd" target="blank"><img src="../img/logo-facebook.png" alt="Facebook" class="logosm"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
