@@ -163,7 +163,7 @@ tbody tr td{
 }
 .grid-gallery-item{
     display: grid;
-    width: 40vh;
+    width: 30vh;
     height: auto;
     justify-self: center;
     align-self: center;
@@ -175,14 +175,21 @@ tbody tr td{
     padding-bottom: 4vh;
 }
 /*Configuración de contacto*/
+.grid-main-contact{
+    display: grid;
+    align-content: center;
+    justify-content: start;
+}
 .flex-container-main-contact{
     display: flex;
+    text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 3vh;
 }
 .contact{
     width: 40vh;
-    margin:0 auto 0 auto;
+    margin: 0 auto 0 auto;
     padding: 16px 32px 16px 32px;
     background-color: rgb(10,10,10);
     border: 2px solid rgba(200,200,200,0.5);
@@ -259,7 +266,7 @@ tbody tr td{
     }
     .grid-gallery-item{
         display: grid;
-        width: 75%;
+        width: 14vw;
         height: auto;
         justify-self: center;
         align-self: center;
@@ -368,6 +375,7 @@ tbody tr td{
         width: 15rem;
     }
     .contact{
+        align-items: center;
         height: 35vh;
     }
     .logosm{
