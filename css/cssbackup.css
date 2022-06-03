@@ -34,13 +34,9 @@ nav{
     width: auto;
     margin: 8px 0px 8px 16px;
     display: inline;
-    display: flex;
-    align-items: flex-start;
-
 }
 .menu{
     margin: 20px 8px 8px 0px;
-    text-align: end;
 }
 .menu li{
     padding: 8px;
@@ -62,8 +58,6 @@ body{
 }
 .grid-main{
     display: grid;
-    align-content: end;
-    justify-content: center;
 }
 .flex-container-main-index{
     display: flex;
@@ -205,19 +199,16 @@ tbody tr td{
     align-items: flex-end;
 }
 .logosm{
-    width: 25%;
+    width: 32px;
     height: auto;
-    padding: 2px;
-    margin: 2px;
+    padding: 8px;
 }
 .socialmedia{
-    text-align: end;
-    justify-content: end;
-    align-content: center;
-    height: fit-content;
+    text-align: center;
 }
 .copyright{
-    text-align: start;
+    text-align: center;
+    padding-bottom: 8px;
     color: rgba(200,200,200, 0.5);
     font-family: Helvetica, sans-serif ;
     font-size: 12px;
@@ -235,19 +226,6 @@ tbody tr td{
     .grid-body-2{
         display: grid;
         grid-template-rows: 10vh auto 8vh;
-    }
-    .menu{
-        text-align: end;
-    }
-    .logo{
-        display: flex;
-        align-items: start;
-    }
-    .socialmedia{
-        text-align: end;
-    }
-    .copyright{
-        text-align: start;
     }
     .grid-gallery{
         display: grid;
@@ -370,9 +348,4 @@ tbody tr td{
     .contact{
         height: 35vh;
     }
-    .logosm{
-        width: 20%;
-        height: auto;
-        padding: 8px;
-        margin: 2px;
 }
