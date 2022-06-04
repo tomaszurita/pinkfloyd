@@ -85,7 +85,7 @@ body{
     border-radius: 8px 8px 0px 0px;
 }
 .content{
-    width: 70vw;
+    width: 77vw;
     margin:auto;
     padding: 32px;
     background-color: rgb(10,10,10);
@@ -376,7 +376,8 @@ tbody tr td{
     }
     .contact{
         align-items: center;
-        height: 35vh;
+        height: 55vh;
+        min-width: 25vw;
     }
     .logosm{
         width: 20%;
