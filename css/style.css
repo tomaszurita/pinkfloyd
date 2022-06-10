@@ -1,414 +1,382 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
 /*Coniguración body*/
-body{
-    background-image:url(../img/dsm.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-.grid-body{
-    display: grid;
-    height: 100vh;
-    grid-template-rows: auto auto 8vh;
-    margin: auto;
-}
-.grid-body-2{
-    display: grid;
-    grid-template-rows: auto auto 8vh;
-    gap: 2vh;
-    margin: auto;
-}
+body {
+  background-image: url(../img/dsm.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
+
+.grid-body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto auto 8vh;
+  margin: auto; }
+
+.grid-body-2 {
+  display: grid;
+  grid-template-rows: auto auto 8vh;
+  gap: 2vh;
+  margin: auto; }
+
 /*Configuración header*/
-.grid-header{
-    display: grid;
-    max-height: 25vh;
-}
-.flex-container-nav{
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 6px;
-}
-.logo{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    height: 7vh;
-    width: auto;
-    margin-top: 2px;
-}
-.menu{
-    align-items: baseline;
-    justify-content: center;
-    margin: 8px 0px 8px 0px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.menu li{
-    padding: 0 4px 0 4px;
-    margin: 6px;
-    display: inline;
-    font-family: "Kumbh Sans", sans-serif;
-    font-size: 18px;
-}
-.menu li a{
-    text-decoration: none;
-    color:rgb(200,200,200);
-}
+.grid-header {
+  display: grid;
+  max-height: 25vh; }
+
+.flex-container-nav {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 6px; }
+
+.logo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 7vh;
+  width: auto;
+  margin-top: 2px; }
+
+.menu {
+  align-items: baseline;
+  justify-content: center;
+  margin: 8px 0px 8px 0px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.menu li {
+  padding: 0 4px 0 4px;
+  margin: 6px;
+  display: inline;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px; }
+
+.menu li a {
+  text-decoration: none;
+  color: #c8c8c8; }
+
 /*Configuración main*/
-.grid-main{
-    display: grid;
-}
+.grid-main {
+  display: grid; }
+
 /*Configuración título y contenido*/
-.title2{
-    width: 50vw;
-    padding: 12px;
-    margin: 12px auto 0 auto;
-    font-family: "Kumbh Sans", sans-serif;
-    font-size: 28px;
-    text-align: center;
-    color:rgb(200,200,200);
-    background-color: rgb(10,10,10);
-    border: 2px solid rgba(200,200,200,0.5);
-    border-bottom: 0px;
-    border-radius: 8px 8px 0px 0px;
-}
-.content{
-    width: 70vw;
-    margin:auto;
-    padding: 32px;
-    background-color: rgb(10,10,10);
-    border: 2px solid rgba(200,200,200,0.5);
-    border-radius: 8px;
-    color: rgb(200,200,200);
-    text-align: center;
-    font-family: "Kumbh Sans",sans-serif;
-}
-.content1{
-    margin-top: 4px;
-}
+.title2 {
+  width: 50vw;
+  padding: 12px;
+  margin: 12px auto 0 auto;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  color: #c8c8c8;
+  background-color: #0a0a0a;
+  border: 2px solid rgba(200, 200, 200, 0.5);
+  border-bottom: 0px;
+  border-radius: 8px 8px 0px 0px; }
+
+.content {
+  width: 70vw;
+  margin: auto;
+  padding: 32px;
+  background-color: #0a0a0a;
+  border: 2px solid rgba(200, 200, 200, 0.5);
+  border-radius: 8px;
+  color: #c8c8c8;
+  text-align: center;
+  font-family: "Kumbh Sans",sans-serif; }
+
+.content1 {
+  margin-top: 4px; }
+
 /*Configuración de Index*/
-.flex-container-main-index{
-    display: flex;
-    flex-flow: column-reverse;
-    align-items: center;
-}
-.logoindex{
-    width: 280px;
-    height: 160px;
-    order: 2;
-}
-.subtitle{
-    color: rgb(200,200,200);
-    font-family: "Kumbh Sans",sans-serif;
-    order: 1;
-    padding: 8px;
-}
+.flex-container-main-index {
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: center; }
+
+.logoindex {
+  width: 280px;
+  height: 160px;
+  order: 2; }
+
+.subtitle {
+  color: #c8c8c8;
+  font-family: "Kumbh Sans",sans-serif;
+  order: 1;
+  padding: 8px; }
+
 /*Configuración de discografía*/
-table{
-    width: 90vw;
-    align-self: center;
-    margin:auto;
-    padding: 4px;
-    background-color: rgb(10,10,10);
-    border: 2px solid rgba(200,200,200,0.5);
-    border-radius: 8px;
-    color: rgb(200,200,200);
-    text-align: center;
-    font-family: "Kumbh Sans",sans-serif;
-}
-thead tr td{
-    font-size: 14px;
-    font-weight: 500;
-    padding: 8px ;
-    border: 1px solid rgba(200,200,200, 0.5);
-    background-color: rgb(5,5,5);
-}
-.table-image{
-    width: 80px;
-    height: 80px;
-}
-tbody tr td{
-    font-size: 13px;
-    font-weight: 300;
-    padding: 4px;
-    border: 1px solid rgba(200,200,200, 0.5);
-    background-color: rgb(5,5,5);
-}
+table {
+  width: 90vw;
+  align-self: center;
+  margin: auto;
+  padding: 4px;
+  background-color: #0a0a0a;
+  border: 2px solid rgba(200, 200, 200, 0.5);
+  border-radius: 8px;
+  color: #c8c8c8;
+  text-align: center;
+  font-family: "Kumbh Sans",sans-serif; }
+
+thead tr td {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px;
+  border: 1px solid rgba(200, 200, 200, 0.5);
+  background-color: #050505; }
+
+.table-image {
+  width: 80px;
+  height: 80px; }
+
+tbody tr td {
+  font-size: 13px;
+  font-weight: 300;
+  padding: 4px;
+  border: 1px solid rgba(200, 200, 200, 0.5);
+  background-color: #050505; }
+
 /*Las siguientes clases para redondear la parte interna de la tabla*/
-.td1{
-    border-top-left-radius: 8px;
-}
-.td2{
-    border-top-right-radius: 8px;
-}
-.td3{
-    border-bottom-left-radius: 8px;
-}
-.td4{
-    border-bottom-right-radius: 8px;
-}
+.td1 {
+  border-top-left-radius: 8px; }
+
+.td2 {
+  border-top-right-radius: 8px; }
+
+.td3 {
+  border-bottom-left-radius: 8px; }
+
+.td4 {
+  border-bottom-right-radius: 8px; }
+
 /*Configuración de galería*/
-.grid-gallery{
-    display: grid;
-    grid-template-rows: repeat(9, 1fr);
-    row-gap: 2vh ;
-    column-gap: 2vw;
-}
-.grid-gallery-item{
-    display: grid;
-    width: 40vh;
-    height: auto;
-    justify-self: center;
-    align-self: center;
-}
-.grid-gallery-item1{
-    width: 30vh;
-}
-.subtitle-gallery{
-    padding-bottom: 4vh;
-}
+.grid-gallery {
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  row-gap: 2vh;
+  column-gap: 2vw; }
+
+.grid-gallery-item {
+  display: grid;
+  width: 40vh;
+  height: auto;
+  justify-self: center;
+  align-self: center; }
+
+.grid-gallery-item1 {
+  width: 30vh; }
+
+.subtitle-gallery {
+  padding-bottom: 4vh; }
+
 /*Configuración de contacto*/
-.flex-container-main-contact{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-.contact{
-    width: 40vh;
-    margin:0 auto 0 auto;
-    padding: 16px 32px 16px 32px;
-    background-color: rgb(10,10,10);
-    border: 2px solid rgba(200,200,200,0.5);
-    border-radius: 8px;
-    color: rgb(200,200,200);
-    text-align: center;
-    font-family: "Kumbh Sans",sans-serif;
-}
-.input{
-    margin: 10% auto 10% auto;
-}
+.flex-container-main-contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.contact {
+  width: 40vh;
+  margin: 0 auto 0 auto;
+  padding: 16px 32px 16px 32px;
+  background-color: #0a0a0a;
+  border: 2px solid rgba(200, 200, 200, 0.5);
+  border-radius: 8px;
+  color: #c8c8c8;
+  text-align: center;
+  font-family: "Kumbh Sans",sans-serif; }
+
+.input {
+  margin: 10% auto 10% auto; }
+
 /*footer*/
 /*Lo mismo que hice con el nav superior lo apliqué al footer*/
-.grid-footer{
+.grid-footer {
+  display: grid; }
+
+.flex-container-footer {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center; }
+
+.logosm {
+  width: 32px;
+  height: auto;
+  padding: 8px; }
+
+.socialmedia {
+  text-align: center; }
+
+.copyright {
+  text-align: center;
+  padding-bottom: 8px;
+  color: rgba(200, 200, 200, 0.5);
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: lighter; }
+
+/*Configuración de vista web*/
+@media screen and (min-width: 768px) {
+  /*Configuración de header*/
+  .grid-header {
     display: grid;
-}
-.flex-container-footer{
+    height: 12vh;
+    max-height: 20vh; }
+  nav {
+    text-align: center; }
+  .flex-container-nav {
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-}
-.logosm{
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 6px; }
+  .logo {
+    height: 9vh;
+    width: auto;
+    margin: 8px 0px 8px 16px;
+    display: inline; }
+  .menu {
+    margin: 20px 8px 8px 0px; }
+  .menu li {
+    padding: 8px;
+    margin: 8px;
+    display: inline;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 22px; }
+  .menu li a {
+    text-decoration: none;
+    color: #c8c8c8; }
+  /*Configuración body*/
+  .grid-body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 10vh 82vh 8vh; }
+  .grid-body-2 {
+    display: grid;
+    grid-template-rows: 10vh auto 8vh; }
+  /*Animaciones logos*/
+  .logo:hover, .logosm:hover {
+    transform: scale(1.06);
+    transition: .25s; }
+  /*Animaciones nav*/
+  .linknav1:hover {
+    margin: auto;
+    padding: 7px;
+    color: rgba(252, 17, 17, 0.8);
+    transition: .25s; }
+  .linknav2:hover {
+    margin: auto;
+    padding: 7px;
+    color: rgba(255, 255, 50, 0.8);
+    transition: .25s; }
+  .linknav3:hover {
+    margin: auto;
+    padding: 7px;
+    color: rgba(38, 218, 38, 0.8);
+    transition: .25s; }
+  .linknav4:hover {
+    margin: auto;
+    padding: 7px;
+    color: rgba(81, 185, 255, 0.8);
+    transition: .25s; }
+  .linknav5:hover {
+    margin: auto;
+    padding: 7px;
+    color: rgba(138, 47, 223, 0.9);
+    transition: .25s; }
+  .logoindex {
+    width: 320px;
+    height: 184px; }
+  .socialmedia {
+    margin: 2px; }
+  /*Configuracion título y contenido*/
+  .title2 {
+    width: 240px;
+    padding: 12px;
+    margin: 20px auto 0 auto;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: #c8c8c8;
+    background-color: #0a0a0a;
+    border: 2px solid rgba(200, 200, 200, 0.5);
+    border-bottom: 0px;
+    border-radius: 8px 8px 0px 0px; }
+  .content {
+    width: 60vw;
+    margin: auto;
+    padding: 32px;
+    background-color: #0a0a0a;
+    border: 2px solid rgba(200, 200, 200, 0.5);
+    border-radius: 8px;
+    color: #c8c8c8;
+    text-align: center;
+    font-family: "Kumbh Sans",sans-serif;
+    margin-bottom: 2px; }
+  /*Configuración discografía*/
+  table {
+    width: 70vw; }
+  .table-discography {
+    margin: auto 20vw auto 20vw;
+    padding: 8px;
+    background-color: #0a0a0a;
+    border: 2px solid rgba(200, 200, 200, 0.5);
+    border-radius: 8px;
+    color: #c8c8c8;
+    text-align: center;
+    font-family: "Kumbh Sans",sans-serif; }
+  thead tr td {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+    background-color: #050505; }
+  tbody tr td {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 6px 12px 6px 12px;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+    background-color: #050505; }
+  /*Configuración galería*/
+  .grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 2vh;
+    column-gap: 2vw;
+    align-items: center; }
+  .grid-gallery-item {
+    display: grid;
+    width: 75%;
+    height: auto;
+    justify-self: center;
+    align-self: center; }
+  .grid-gallery-item1 {
+    width: 60%; }
+  /*Configuración de título*/
+  .title2 {
+    margin: 1rem auto 0 auto;
+    width: 15rem; }
+  /*Contacto*/
+  .contact {
+    height: 35vh; }
+  /*Configuración footer*/
+  .grid-footer {
+    display: grid; }
+  .flex-container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end; }
+  .logosm {
     width: 32px;
     height: auto;
-    padding: 8px;
-}
-.socialmedia{
-    text-align: center;
-}
-.copyright{
-    text-align: center;
-    padding-bottom: 8px;
-    color: rgba(200,200,200, 0.5);
-    font-family: Helvetica, sans-serif ;
-    font-size: 12px;
-    font-weight: lighter;
-}
-/*Configuración de vista web*/
-@media screen and (min-width:768px){
-    /*Configuración de header*/
-    .grid-header{
-        display: grid;
-        height: 12vh;
-        max-height: 20vh;
-    }
-    nav{
-        text-align: center;
-    }
-    .flex-container-nav{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        margin-top: auto;
-        margin-bottom: auto;
-        padding: 6px;
-    }
-    .logo{
-        height: 9vh;
-        width: auto;
-        margin: 8px 0px 8px 16px;
-        display: inline;
-    }
-    .menu{
-        margin: 20px 8px 8px 0px;
-    }
-    .menu li{
-        padding: 8px;
-        margin: 8px;
-        display: inline;
-        font-family: "Kumbh Sans", sans-serif;
-        font-size: 22px;
-    }
-    .menu li a{
-        text-decoration: none;
-        color:rgb(200,200,200);
-    }
-    /*Configuración body*/
-    .grid-body{
-        display: grid;
-        height: 100vh;
-        grid-template-rows: 10vh 82vh 8vh;
-    }
-    .grid-body-2{
-        display: grid;
-        grid-template-rows: 10vh auto 8vh;
-    }
-    /*Animaciones logos*/
-    .logo:hover, .logosm:hover{
-        transform: scale(1.05);
-        transition: .25s;
-    }
-    /*Animaciones nav*/
-    .linknav1:hover{
-        margin: auto;
-        padding: 7px;
-        color: rgba(252, 17, 17, 0.8);
-        transition: .25s;
-    }
-    .linknav2:hover{
-        margin: auto;
-        padding: 7px;
-        color: rgba(255, 255, 50, 0.8);
-        transition: .25s;
-    }
-    .linknav3:hover{
-        margin: auto;
-        padding: 7px;
-        color: rgba(38, 218, 38, 0.8);
-        transition: .25s;
-    }
-    .linknav4:hover{
-        margin: auto;
-        padding: 7px;
-        color: rgba(81, 185, 255, 0.8);
-        transition: .25s;
-    }
-    .linknav5:hover{
-        margin: auto;
-        padding: 7px;
-        color: rgba(138, 47, 223, 0.9);
-        transition: .25s;
-    }
-    .logoindex{
-        width: 320px;
-        height: 184px;
-    }
-    .socialmedia{
-        margin: 2px;
-    }
-    /*Configuracion título y contenido*/
-    .title2{
-        width: 240px;
-        padding: 12px;
-        margin: 20px auto 0 auto;
-        font-family: "Kumbh Sans", sans-serif;
-        font-size: 32px;
-        text-align: center;
-        color:rgb(200,200,200);
-        background-color: rgb(10,10,10);
-        border: 2px solid rgba(200,200,200,0.5);
-        border-bottom: 0px;
-        border-radius: 8px 8px 0px 0px;
-    }
-    .content{
-        width: 60vw;
-        margin:auto;
-        padding: 32px;
-        background-color: rgb(10,10,10);
-        border: 2px solid rgba(200,200,200,0.5);
-        border-radius: 8px;
-        color: rgb(200,200,200);
-        text-align: center;
-        font-family: "Kumbh Sans",sans-serif;
-        margin-bottom:2px;
-    }
-    /*Configuración discografía*/
-    table{
-        width: 70vw;
-    }
-    .table-discography{
-        margin:auto 20vw auto 20vw;
-        padding: 8px;
-        background-color: rgb(10,10,10);
-        border: 2px solid rgba(200,200,200,0.5);
-        border-radius: 8px;
-        color: rgb(200,200,200);
-        text-align: center;
-        font-family: "Kumbh Sans",sans-serif;
-    }
-    thead tr td{
-        font-size: 20px;
-        font-weight: 500;
-        padding: 12px ;
-        border: 1px solid rgba(200,200,200, 0.5);
-        background-color: rgb(5,5,5);
-    }
-    tbody tr td{
-        font-size: 16px;
-        font-weight: 300;
-        padding: 6px 12px 6px 12px;
-        border: 1px solid rgba(200,200,200, 0.5);
-        background-color: rgb(5,5,5);
-    }
-    /*Configuración galería*/
-    .grid-gallery{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        row-gap: 2vh ;
-        column-gap: 2vw;
-        align-items: center;
-    }
-    .grid-gallery-item{
-        display: grid;
-        width: 75%;
-        height: auto;
-        justify-self: center;
-        align-self: center;
-    }
-    .grid-gallery-item1{
-        width: 60%;
-    }
-    /*Configuración de título*/
-    .title2{
-        margin: 1rem auto 0 auto;
-        width: 15rem;
-    }
-    /*Contacto*/
-    .contact{
-        height: 35vh;
-    }
-    /*Configuración footer*/
-    .grid-footer{
-        display: grid;
-    }
-    .flex-container-footer{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-    .logosm{
-        width: 32px;
-        height: auto;
-        padding: 8px;
-    }
-    .socialmedia{
-        text-align: center;
-    }
-}
+    padding: 8px; }
+  .socialmedia {
+    text-align: center; } }
