@@ -27,6 +27,9 @@ body {
   display: grid;
   max-height: 25vh; }
 
+nav {
+  text-align: center; }
+
 .flex-container-nav {
   display: flex;
   flex-direction: column;
@@ -34,32 +37,28 @@ body {
   margin-top: auto;
   margin-bottom: auto;
   padding: 6px; }
-
-.logo {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  height: 7vh;
-  width: auto;
-  margin-top: 2px; }
-
-.menu {
-  align-items: baseline;
-  justify-content: center;
-  margin: 8px 0px 8px 0px;
-  display: flex;
-  flex-wrap: wrap; }
-
-.menu li {
-  padding: 0 4px 0 4px;
-  margin: 6px;
-  display: inline;
-  font-family: "Kumbh Sans", sans-serif;
-  font-size: 18px; }
-
-.menu li a {
-  text-decoration: none;
-  color: #c8c8c8; }
+  .flex-container-nav .logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 7vh;
+    width: auto;
+    margin-top: 2px; }
+  .flex-container-nav .menu {
+    align-items: baseline;
+    justify-content: center;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    flex-wrap: wrap; }
+    .flex-container-nav .menu li {
+      padding: 0 4px 0 4px;
+      margin: 6px;
+      display: inline;
+      font-family: "Kumbh Sans", sans-serif;
+      font-size: 18px; }
+      .flex-container-nav .menu li a {
+        text-decoration: none;
+        color: #c8c8c8; }
 
 /*Configuración main*/
 .grid-main {
@@ -203,22 +202,19 @@ tbody tr td {
   display: flex;
   flex-direction: column-reverse;
   justify-content: center; }
-
-.logosm {
-  width: 32px;
-  height: auto;
-  padding: 8px; }
-
-.socialmedia {
-  text-align: center; }
-
-.copyright {
-  text-align: center;
-  padding-bottom: 8px;
-  color: rgba(200, 200, 200, 0.5);
-  font-family: Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: lighter; }
+  .flex-container-footer .copyright {
+    text-align: center;
+    padding-bottom: 8px;
+    color: rgba(200, 200, 200, 0.5);
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: lighter; }
+  .flex-container-footer .socialmedia {
+    text-align: center; }
+    .flex-container-footer .socialmedia .logosm {
+      width: 32px;
+      height: auto;
+      padding: 8px; }
 
 /*Configuración de vista web*/
 @media screen and (min-width: 768px) {
@@ -227,8 +223,6 @@ tbody tr td {
     display: grid;
     height: 12vh;
     max-height: 20vh; }
-  nav {
-    text-align: center; }
   .flex-container-nav {
     display: flex;
     justify-content: space-between;
@@ -236,22 +230,48 @@ tbody tr td {
     margin-top: auto;
     margin-bottom: auto;
     padding: 6px; }
-  .logo {
-    height: 9vh;
-    width: auto;
-    margin: 8px 0px 8px 16px;
-    display: inline; }
-  .menu {
-    margin: 20px 8px 8px 0px; }
-  .menu li {
-    padding: 8px;
-    margin: 8px;
-    display: inline;
-    font-family: "Kumbh Sans", sans-serif;
-    font-size: 22px; }
-  .menu li a {
-    text-decoration: none;
-    color: #c8c8c8; }
+    .flex-container-nav .logo {
+      height: 9vh;
+      width: auto;
+      margin: 8px 0px 8px 16px;
+      display: inline; }
+    .flex-container-nav .menu {
+      margin: 16px 8px 8px 0px; }
+      .flex-container-nav .menu li {
+        padding: 8px;
+        margin: 8px;
+        display: inline;
+        font-family: "Kumbh Sans", sans-serif;
+        font-size: 22px; }
+        .flex-container-nav .menu li a {
+          text-decoration: none;
+          color: #c8c8c8; }
+  /*Animaciones nav*/
+  #linknav1:hover {
+    margin: auto;
+    padding: 7px;
+    color: rgba(252, 17, 17, 0.8);
+    transition: .25s; }
+  #linknav2:hover {
+    margin: auto;
+    padding: 7px;
+    color: rgba(255, 255, 50, 0.8);
+    transition: .25s; }
+  #linknav3:hover {
+    margin: auto;
+    padding: 7px;
+    color: rgba(38, 218, 38, 0.8);
+    transition: .25s; }
+  #linknav4:hover {
+    margin: auto;
+    padding: 7px;
+    color: rgba(81, 185, 255, 0.8);
+    transition: .25s; }
+  #linknav5:hover {
+    margin: auto;
+    padding: 7px;
+    color: rgba(138, 47, 223, 0.9);
+    transition: .25s; }
   /*Configuración body*/
   .grid-body {
     display: grid;
@@ -263,32 +283,6 @@ tbody tr td {
   /*Animaciones logos*/
   .logo:hover, .logosm:hover {
     transform: scale(1.06);
-    transition: .25s; }
-  /*Animaciones nav*/
-  .linknav1:hover {
-    margin: auto;
-    padding: 7px;
-    color: rgba(252, 17, 17, 0.8);
-    transition: .25s; }
-  .linknav2:hover {
-    margin: auto;
-    padding: 7px;
-    color: rgba(255, 255, 50, 0.8);
-    transition: .25s; }
-  .linknav3:hover {
-    margin: auto;
-    padding: 7px;
-    color: rgba(38, 218, 38, 0.8);
-    transition: .25s; }
-  .linknav4:hover {
-    margin: auto;
-    padding: 7px;
-    color: rgba(81, 185, 255, 0.8);
-    transition: .25s; }
-  .linknav5:hover {
-    margin: auto;
-    padding: 7px;
-    color: rgba(138, 47, 223, 0.9);
     transition: .25s; }
   .logoindex {
     width: 320px;
@@ -322,27 +316,27 @@ tbody tr td {
   /*Configuración discografía*/
   table {
     width: 70vw; }
-  .table-discography {
-    margin: auto 20vw auto 20vw;
-    padding: 8px;
-    background-color: #0a0a0a;
-    border: 2px solid rgba(200, 200, 200, 0.5);
-    border-radius: 8px;
-    color: #c8c8c8;
-    text-align: center;
-    font-family: "Kumbh Sans",sans-serif; }
-  thead tr td {
-    font-size: 20px;
-    font-weight: 500;
-    padding: 12px;
-    border: 1px solid rgba(200, 200, 200, 0.5);
-    background-color: #050505; }
-  tbody tr td {
-    font-size: 16px;
-    font-weight: 300;
-    padding: 6px 12px 6px 12px;
-    border: 1px solid rgba(200, 200, 200, 0.5);
-    background-color: #050505; }
+    table .table-discography {
+      margin: auto 20vw auto 20vw;
+      padding: 8px;
+      background-color: #0a0a0a;
+      border: 2px solid rgba(200, 200, 200, 0.5);
+      border-radius: 8px;
+      color: #c8c8c8;
+      text-align: center;
+      font-family: "Kumbh Sans",sans-serif; }
+      table .table-discography thead tr td {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 12px;
+        border: 1px solid rgba(200, 200, 200, 0.5);
+        background-color: #050505; }
+      table .table-discography tbody tr td {
+        font-size: 16px;
+        font-weight: 300;
+        padding: 6px 12px 6px 12px;
+        border: 1px solid rgba(200, 200, 200, 0.5);
+        background-color: #050505; }
   /*Configuración galería*/
   .grid-gallery {
     display: grid;
@@ -374,9 +368,9 @@ tbody tr td {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end; }
-  .logosm {
-    width: 32px;
-    height: auto;
-    padding: 8px; }
-  .socialmedia {
-    text-align: center; } }
+    .flex-container-footer .logosm {
+      width: 32px;
+      height: auto;
+      padding: 8px; }
+      .flex-container-footer .logosm .socialmedia {
+        text-align: center; } }
