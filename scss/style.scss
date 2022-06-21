@@ -61,7 +61,7 @@ nav{
                 font-size: 18px;
                 a{
                     text-decoration: none;
-                    color:$grey;
+                    color:map-get($color-map,grey);
                 }
             }
         }
@@ -77,9 +77,9 @@ nav{
     margin: 12px auto 0 auto;
     font: $title-font;
     text-align: center;
-    color:$grey;
-    background-color: $black;
-    border: 2px solid $grey-a;
+    color:map-get($color-map,grey);
+    background-color: map-get($color-map,black);
+    border: 2px solid map-get($color-map, grey-a);
     border-bottom: 0px;
     border-radius: 8px 8px 0px 0px;
 }
@@ -87,10 +87,10 @@ nav{
     width: 70vw;
     margin:auto;
     padding: 32px;
-    background-color: $black;
-    border: 2px solid $grey-a;
+    background-color: map-get($color-map,black);
+    border: 2px solid map-get($color-map, grey-a);
     border-radius: 8px;
-    color: $grey;
+    color: map-get($color-map,grey);
     text-align: center;
     font-family: $font;
 }
@@ -109,7 +109,7 @@ nav{
     order: 2;
 }
 .subtitle{
-    color: $grey;
+    color: map-get($color-map,grey);
     font-family: $font;
     order: 1;
     padding: 8px;
@@ -120,10 +120,10 @@ table{
     align-self: center;
     margin:auto;
     padding: 4px;
-    background-color: $black;
-    border: 2px solid $grey-a;
+    background-color: map-get($color-map,black);
+    border: 2px solid map-get($color-map, grey-a);
     border-radius: 8px;
-    color: $grey;
+    color: map-get($color-map,grey);
     text-align: center;
     font-family: $font;
 }
@@ -131,8 +131,8 @@ thead tr td{
     font-size: 14px;
     font-weight: 500;
     padding: 8px ;
-    border: 1px solid $grey-a;
-    background-color: $black-a;
+    border: 1px solid map-get($color-map, grey-a);
+    background-color: map-get($color-map, black-a);
 }
 .table-image{
     width: 80px;
@@ -142,8 +142,8 @@ tbody tr td{
     font-size: 13px;
     font-weight: 300;
     padding: 4px;
-    border: 1px solid $grey-a;
-    background-color: $black-a;
+    border: 1px solid map-get($color-map, grey-a);
+    background-color: map-get($color-map, black-a);
 }
 /*Las siguientes clases para redondear la parte interna de la tabla*/
 .td1{
@@ -188,10 +188,10 @@ tbody tr td{
     width: 40vh;
     margin:0 auto 0 auto;
     padding: 16px 32px 16px 32px;
-    background-color: $black;
-    border: 2px solid $grey-a;
+    background-color: map-get($color-map,black);
+    border: 2px solid map-get($color-map, grey-a);
     border-radius: 8px;
-    color: $grey;
+    color: map-get($color-map,grey);
     text-align: center;
     font-family: $font;
 }
@@ -210,7 +210,7 @@ tbody tr td{
     .copyright{
         text-align: center;
         padding-bottom: 8px;
-        color: $grey-a;
+        color: map-get($color-map, grey-a);
         font-family: $font;
         font-size: 12px;
         font-weight: lighter;
@@ -255,7 +255,7 @@ tbody tr td{
                 font-size: 22px;
                 a{
                     text-decoration: none;
-                    color:$grey;
+                    color:map-get($color-map,grey);
                 }
             }
         }
@@ -321,9 +321,9 @@ tbody tr td{
         font-family: $font;
         font-size: 32px;
         text-align: center;
-        color:$grey;
-        background-color: $black;
-        border: 2px solid $grey-a;
+        color:map-get($color-map,grey);
+        background-color: map-get($color-map,black);
+        border: 2px solid map-get($color-map, grey-a);
         border-bottom: 0px;
         border-radius: 8px 8px 0px 0px;
     }
@@ -331,10 +331,10 @@ tbody tr td{
         width: 60vw;
         margin:auto;
         padding: 32px;
-        background-color: $black;
-        border: 2px solid $grey-a;
+        background-color: map-get($color-map,black);
+        border: 2px solid map-get($color-map, grey-a);
         border-radius: 8px;
-        color: $grey;
+        color: map-get($color-map,grey);
         text-align: center;
         font-family: $font;
         margin-bottom:2px;
@@ -345,25 +345,25 @@ tbody tr td{
         .table-discography{
             margin:auto 20vw auto 20vw;
             padding: 8px;
-            background-color: $black;
-            border: 2px solid $grey-a;
+            background-color: map-get($color-map,black);
+            border: 2px solid map-get($color-map, grey-a);
             border-radius: 8px;
-            color: $grey;
+            color: map-get($color-map,grey);
             text-align: center;
             font-family: $font;
             thead tr td{
                 font-size: 20px;
                 font-weight: 500;
                 padding: 12px ;
-                border: 1px solid $grey-a;
-                background-color: $black-a;
+                border: 1px solid map-get($color-map, grey-a);
+                background-color: map-get($color-map, black-a);
             }
             tbody tr td{
                 font-size: 16px;
                 font-weight: 300;
                 padding: 6px 12px 6px 12px;
-                border: 1px solid $grey-a ;
-                background-color: $black-a;
+                border: 1px solid map-get($color-map, grey-a) ;
+                background-color: map-get($color-map, black-a);
             }
         }
     }
