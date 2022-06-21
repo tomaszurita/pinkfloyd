@@ -246,31 +246,19 @@ tbody tr td {
           text-decoration: none;
           color: #c8c8c8; }
   /*Animaciones nav*/
-  #linknav1:hover {
+  #linknav1:hover, #linknav2:hover, #linknav3:hover, #linknav4:hover, #linknav5:hover {
     margin: auto;
     padding: 7px;
-    color: rgba(252, 17, 17, 0.8);
-    transition: .25s; }
+    transition: .25s;
+    color: rgba(252, 17, 17, 0.8); }
   #linknav2:hover {
-    margin: auto;
-    padding: 7px;
-    color: rgba(255, 255, 50, 0.8);
-    transition: .25s; }
+    color: rgba(255, 255, 50, 0.8); }
   #linknav3:hover {
-    margin: auto;
-    padding: 7px;
-    color: rgba(38, 218, 38, 0.8);
-    transition: .25s; }
+    color: rgba(38, 218, 38, 0.8); }
   #linknav4:hover {
-    margin: auto;
-    padding: 7px;
-    color: rgba(81, 185, 255, 0.8);
-    transition: .25s; }
+    color: rgba(81, 185, 255, 0.8); }
   #linknav5:hover {
-    margin: auto;
-    padding: 7px;
-    color: rgba(138, 47, 223, 0.9);
-    transition: .25s; }
+    color: rgba(138, 47, 223, 0.9); }
   /*Configuración body*/
   .grid-body {
     display: grid;
