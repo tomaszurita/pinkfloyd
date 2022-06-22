@@ -75,7 +75,9 @@ nav{
     width: 50vw;
     padding: 12px;
     margin: 12px auto 0 auto;
-    font: $title-font;
+    font-family: $font;
+    font-size: 28px;
+    font-weight: 500;
     text-align: center;
     color:map-get($color-map,grey);
     background-color: map-get($color-map,black);
@@ -177,6 +179,7 @@ tbody tr td{
 }
 .subtitle-gallery{
     padding-bottom: 4vh;
+    font-weight: 500;
 }
 /*Configuración de contacto*/
 .flex-container-main-contact{
@@ -194,6 +197,10 @@ tbody tr td{
     color: map-get($color-map,grey);
     text-align: center;
     font-family: $font;
+    font-weight: 500;
+}
+.subtitle-contact{
+    font-weight: 500;
 }
 .input{
     margin: 10% auto 10% auto;
@@ -287,7 +294,7 @@ tbody tr td{
     .grid-body{
         display: grid;
         height: 100vh;
-        grid-template-rows: 10vh 82vh 8vh;
+        grid-template-rows: 9vh 82vh 8vh;
     }
     .grid-body-2{
         display: grid;
@@ -311,7 +318,8 @@ tbody tr td{
         padding: 12px;
         margin: 20px auto 0 auto;
         font-family: $font;
-        font-size: 32px;
+        font-size: 30px;
+        font-weight: 500;
         text-align: center;
         color:map-get($color-map,grey);
         background-color: map-get($color-map,black);
@@ -384,6 +392,9 @@ tbody tr td{
         width: 15rem;
     }
     /*Contacto*/
+    .grid-main-contact{
+        height: 77vh;
+    }
     .contact{
         height: 35vh;
     }

@@ -69,7 +69,9 @@ nav {
   width: 50vw;
   padding: 12px;
   margin: 12px auto 0 auto;
-  font: "Kumbh Sans", sans-serif, 28px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
   text-align: center;
   color: #c8c8c8;
   background-color: #0a0a0a;
@@ -170,7 +172,8 @@ tbody tr td {
   width: 30vh; }
 
 .subtitle-gallery {
-  padding-bottom: 4vh; }
+  padding-bottom: 4vh;
+  font-weight: 500; }
 
 /*Configuración de contacto*/
 .flex-container-main-contact {
@@ -187,7 +190,11 @@ tbody tr td {
   border-radius: 8px;
   color: #c8c8c8;
   text-align: center;
-  font-family: "Kumbh Sans", sans-serif; }
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 500; }
+
+.subtitle-contact {
+  font-weight: 500; }
 
 .input {
   margin: 10% auto 10% auto; }
@@ -263,7 +270,7 @@ tbody tr td {
   .grid-body {
     display: grid;
     height: 100vh;
-    grid-template-rows: 10vh 82vh 8vh; }
+    grid-template-rows: 9vh 82vh 8vh; }
   .grid-body-2 {
     display: grid;
     grid-template-rows: 10vh auto 8vh; }
@@ -282,7 +289,8 @@ tbody tr td {
     padding: 12px;
     margin: 20px auto 0 auto;
     font-family: "Kumbh Sans", sans-serif;
-    font-size: 32px;
+    font-size: 30px;
+    font-weight: 500;
     text-align: center;
     color: #c8c8c8;
     background-color: #0a0a0a;
@@ -345,6 +353,8 @@ tbody tr td {
     margin: 1rem auto 0 auto;
     width: 15rem; }
   /*Contacto*/
+  .grid-main-contact {
+    height: 77vh; }
   .contact {
     height: 35vh; }
   /*Configuración footer*/
