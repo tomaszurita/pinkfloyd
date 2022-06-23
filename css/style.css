@@ -81,6 +81,7 @@ nav {
 
 .content {
   width: 70vw;
+  height: auto;
   margin: auto;
   padding: 32px;
   background-color: #0a0a0a;
@@ -163,13 +164,13 @@ tbody tr td {
 
 .grid-gallery-item {
   display: grid;
-  width: 40vh;
+  width: 40vw;
   height: auto;
   justify-self: center;
   align-self: center; }
 
 .grid-gallery-item1 {
-  width: 30vh; }
+  width: 30vw; }
 
 .subtitle-gallery {
   padding-bottom: 4vh;

@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 
 *{
     margin: 0;
@@ -86,7 +87,7 @@ nav{
     border-radius: 8px 8px 0px 0px;
 }
 .content{
-    width: 70vw;
+    @include sizes(70vw, auto);
     margin:auto;
     padding: 32px;
     background-color: map-get($color-map,black);
@@ -106,8 +107,7 @@ nav{
     align-items: center;
 }
 .logoindex{
-    width: 280px;
-    height: 160px;
+    @include sizes(280px,160px);
     order: 2;
 }
 .subtitle{
@@ -137,8 +137,7 @@ thead tr td{
     background-color: map-get($color-map, black-a);
 }
 .table-image{
-    width: 80px;
-    height: 80px;
+    @include sizes(80px,80px);
 }
 tbody tr td{
     font-size: 13px;
@@ -169,13 +168,13 @@ tbody tr td{
 }
 .grid-gallery-item{
     display: grid;
-    width: 40vh;
+    width: 40vw;
     height: auto;
     justify-self: center;
     align-self: center;
 }
 .grid-gallery-item1{
-    width: 30vh;
+    width: 30vw;
 }
 .subtitle-gallery{
     padding-bottom: 4vh;
@@ -306,8 +305,7 @@ tbody tr td{
         transition: .25s;
     }
     .logoindex{
-        width: 320px;
-        height: 184px;
+        @include sizes(320px,184px);
     }
     .socialmedia{
         margin: 2px;
