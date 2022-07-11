@@ -108,6 +108,8 @@ nav {
 .subtitle {
   color: #c8c8c8;
   font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
   order: 1;
   padding: 8px; }
 
@@ -155,6 +157,12 @@ tbody tr td {
 .td4 {
   border-bottom-right-radius: 8px; }
 
+/*Configuración imágenes historia*/
+.img-historia {
+  width: 90%;
+  height: auto;
+  margin: 12px auto 12px auto; }
+
 /*Configuración de galería*/
 .grid-gallery {
   display: grid;
@@ -198,7 +206,15 @@ tbody tr td {
   font-weight: 500; }
 
 .input {
-  margin: 10% auto 10% auto; }
+  margin: 8% auto 8% auto;
+  padding: 2px;
+  border-radius: 8px;
+  font-family: "Kumbh Sans", sans-serif; }
+
+.submit {
+  padding: 4px;
+  border-radius: 8px;
+  font-family: "Kumbh Sans", sans-serif; }
 
 /*footer*/
 /*Lo mismo que hice con el nav superior lo apliqué al footer*/
@@ -211,11 +227,11 @@ tbody tr td {
   justify-content: center; }
   .flex-container-footer .copyright {
     text-align: center;
-    padding-bottom: 8px;
+    padding: auto auto 8px 4px;
     color: rgba(200, 200, 200, 0.5);
     font-family: "Kumbh Sans", sans-serif;
     font-size: 12px;
-    font-weight: lighter; }
+    font-weight: 400; }
   .flex-container-footer .socialmedia {
     text-align: center; }
     .flex-container-footer .socialmedia .logosm {
@@ -309,6 +325,11 @@ tbody tr td {
     text-align: center;
     font-family: "Kumbh Sans", sans-serif;
     margin-bottom: 2px; }
+  /*Configuración imágenes historia*/
+  .img-historia {
+    width: 85%;
+    height: auto;
+    margin: 16px auto 16px auto; }
   /*Configuración discografía*/
   table {
     width: 70vw; }

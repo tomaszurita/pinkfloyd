@@ -113,6 +113,8 @@ nav{
 .subtitle{
     color: map-get($color-map,grey);
     font-family: $font;
+    font-size: 16px;
+    font-weight: 300;
     order: 1;
     padding: 8px;
 }
@@ -159,6 +161,12 @@ tbody tr td{
 .td4{
     border-bottom-right-radius: 8px;
 }
+/*Configuración imágenes historia*/
+.img-historia{
+    width: 90%;
+    height: auto;
+    margin: 12px auto 12px auto;
+}
 /*Configuración de galería*/
 .grid-gallery{
     display: grid;
@@ -202,7 +210,15 @@ tbody tr td{
     font-weight: 500;
 }
 .input{
-    margin: 10% auto 10% auto;
+    margin: 8% auto 8% auto;
+    padding: 2px;
+    border-radius: 8px;
+    font-family: $font;
+}
+.submit{
+    padding: 4px;
+    border-radius: 8px;
+    font-family: $font;
 }
 /*footer*/
 /*Lo mismo que hice con el nav superior lo apliqué al footer*/
@@ -215,11 +231,11 @@ tbody tr td{
     justify-content: center;
     .copyright{
         text-align: center;
-        padding-bottom: 8px;
+        padding: auto auto 8px 4px;
         color: map-get($color-map, grey-a);
         font-family: $font;
         font-size: 12px;
-        font-weight: lighter;
+        font-weight: 400;
     }
     .socialmedia{
         text-align: center;
@@ -336,6 +352,12 @@ tbody tr td{
         text-align: center;
         font-family: $font;
         margin-bottom:2px;
+    }
+    /*Configuración imágenes historia*/
+    .img-historia{
+        width: 85%;
+        height: auto;
+        margin: 16px auto 16px auto;
     }
     /*Configuración discografía*/
     table{
