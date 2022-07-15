@@ -210,7 +210,7 @@ tbody tr td{
     font-weight: 500;
 }
 .input{
-    margin: 8% auto 8% auto;
+    margin: 6% auto 6% auto;
     padding: 2px;
     border-radius: 8px;
     font-family: $font;
@@ -321,7 +321,7 @@ tbody tr td{
         transition: .25s;
     }
     .logoindex{
-        @include sizes(320px,184px);
+        @include sizes(300px,175px);
     }
     .socialmedia{
         margin: 2px;
