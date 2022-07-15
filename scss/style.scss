@@ -321,7 +321,7 @@ tbody tr td{
         transition: .25s;
     }
     .logoindex{
-        @include sizes(285px,168px);
+        @include sizes(auto,26vh);
     }
     .socialmedia{
         margin: 2px;

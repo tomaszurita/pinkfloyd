@@ -296,8 +296,8 @@ tbody tr td {
     transform: scale(1.06);
     transition: .25s; }
   .logoindex {
-    width: 285px;
-    height: 168px; }
+    width: auto;
+    height: 26vh; }
   .socialmedia {
     margin: 2px; }
   /*Configuracion título y contenido*/
